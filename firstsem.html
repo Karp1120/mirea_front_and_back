@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- кодировка стрницы для кирилицы -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- добавляем шрифт Montserrat, а так же диапазон начертаний и стилей -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- название вкладки -->
+    <title>Работа</title>
+    
+</head>
+<body>
+    <header style="width: 95%; display: flex; flex-direction: row; justify-content: space-between; margin: auto;">
+        <div style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+            <div style="background-color: #bebebe; width: 50px; height: 50px;"></div>
+            <h3>Logo</h3>
+        </div>
+        <div style="text-align: right;">
+            <h3>Группа ЭФБО-10-23</h3>
+            <h3>Антонов Александр Андреевич</h3>
+        </div>
+    </header>
+    <div class="buttons" style="border-top: 2px solid #444; border-bottom: 2px solid #444;">
+        <a href="index.html">Главная</a>
+        <a>Первый семестр</a>
+        <a>Второй семестр</a>
+        <a href="services.html">Услуги</a>
+        <a>Авторизация</a>
+    </div>
+    <main style="width: 95%; margin: auto; min-height: calc(100vh - 270px);">
+        <aside style="padding-top: 10px; display: flex; flex-direction: column; gap: 10px; grid-column: 1; grid-row: 1; border-right: 2px solid #444;">
+            <h3>Навигация по странице</h3>
+            <a href="https://google.com" class="navigationbutton">Фронтенд</a>
+            <a href="https://google.com" class="navigationbutton">Бэкенд</a>
+        </aside>
+        <div style="grid-column: 2; grid-row: 1; padding-top: 10px;">
+            <h1>Первый семестр</h1>
+            <button id="toggleLecturesBtn">Показать таблицу с лекциями</button>
+            <div id="lecturesTableContainer" class="hidden">
+                <h2>Лекции</h2>
+                <table>
+                    <tr>
+                      <th>Номер</th>
+                      <th>Тема</th>
+                      <th>Посещение</th>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>Основы языка HTML</td>
+                      <td><input type = "checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Углубленное изучение HTML</td>
+                        <td><input type = "checkbox"></td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Основы работы с CSS</td>
+                        <td><input type = "checkbox"></td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>Адаптивная вёрска с Flexbox и Grid Layout</td>
+                        <td><input type = "checkbox"></td>
+                      </tr>
+                      <tr>
+                        <td>5</td>
+                        <td>Bootstrap - работа с фреймворком</td>
+                        <td><input type = "checkbox"></td>
+                      </tr>
+                      <tr>
+                        <td>6</td>
+                        <td>Основы языка JavaScript</td>
+                        <td><input type = "checkbox"></td>
+                      </tr>
+                      <tr>
+                        <td>7</td>
+                        <td>Работа с DOM и событиями в JavaScript</td>
+                        <td><input type = "checkbox"></td>
+                      </tr>
+                      <tr>
+                        <td>8</td>
+                        <td>Введиние в GitHub и GitHub Pages</td>
+                        <td><input type = "checkbox"></td>
+                      </tr>
+                  </table>
+            </div>
+            <h2>Практики</h2>
+            <table>
+                <tr>
+                  <th>Номер</th>
+                  <th>Тема</th>
+                  <th>Посещение</th>
+                  <th>Выполнние</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Основы языка HTML</td>
+                  <td><input type = "checkbox"></td>
+                  <td><input type = "checkbox"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Формы и кнопки в HTML</td>
+                    <td><input type = "checkbox"></td>
+                    <td><input type = "checkbox"></td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Таблицы и интерактивные элементы HTML</td>
+                    <td><input type = "checkbox"></td>
+                    <td><input type = "checkbox"></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Основы работы в CSS</td>
+                    <td><input type = "checkbox"></td>
+                    <td><input type = "checkbox"></td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>Работа с классами в CSS</td>
+                    <td><input type = "checkbox"></td>
+                    <td><input type = "checkbox"></td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>Работа с сеткой и разметкой в HTML</td>
+                    <td><input type = "checkbox"></td>
+                    <td><input type = "checkbox"></td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Адаптивная вёрстка</td>
+                    <td><input type = "checkbox"></td>
+                    <td><input type = "checkbox"></td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>Bootstrap</td>
+                    <td><input type = "checkbox"></td>
+                    <td><input type = "checkbox"></td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>Основы языка JavaScript</td>
+                    <td><input type = "checkbox"></td>
+                    <td><input type = "checkbox"></td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Базовые задачи на JS</td>
+                    <td><input type = "checkbox"></td>
+                    <td><input type = "checkbox"></td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>DOM-структура приложений и работа с объектами в языке JS</td>
+                    <td><input type = "checkbox"></td>
+                    <td><input type = "checkbox"></td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>Встраивание скриптов</td>
+                    <td><input type = "checkbox"></td>
+                    <td><input type = "checkbox"></td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Отладка сценариев</td>
+                    <td><input type = "checkbox"></td>
+                    <td><input type = "checkbox"></td>
+                  </tr>
+                  <tr>
+                    <td>14</td>
+                    <td>Анимации и работа с ними</td>
+                    <td><input type = "checkbox"></td>
+                    <td><input type = "checkbox"></td>
+                  </tr>
+                  <tr>
+                    <td>15</td>
+                    <td>GitHub</td>
+                    <td><input type = "checkbox"></td>
+                    <td><input type = "checkbox"></td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Защита проекта</td>
+                    <td><input type = "checkbox"></td>
+                    <td><input type = "checkbox"></td>
+                  </tr>
+              </table>
+        </div>
+    </main>
+    <script src="Assets/JS/invisibletable.js"></script>
+    <footer style="width: 95%; margin: auto; border-top: 2px solid #444; display: flex; justify-content: space-between; align-items: center; position: relative;">
+        <div></div>
+        <p>© Антонов Александр Андреевич, 2024</p>
+        <div style="display: flex; flex-direction: row; gap: 20px; align-items: center; padding-top: 20px;"> 
+            <div style="width: 50px; height: 50px; background-color: #bebebe"></div>
+            <div style="width: 50px; height: 50px; background-color: #bebebe"></div>
+        </div>
+    </footer>
+</body>
+</html>
